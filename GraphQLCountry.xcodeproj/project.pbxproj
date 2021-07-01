@@ -13,6 +13,8 @@
 		4976E1CC268DC13C00DF4BE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4976E1CB268DC13C00DF4BE3 /* Preview Assets.xcassets */; };
 		4976E1D7268DC13C00DF4BE3 /* GraphQLCountryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976E1D6268DC13C00DF4BE3 /* GraphQLCountryTests.swift */; };
 		4976E1E2268DC13C00DF4BE3 /* GraphQLCountryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976E1E1268DC13C00DF4BE3 /* GraphQLCountryUITests.swift */; };
+		4976E1F1268DC18B00DF4BE3 /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976E1F0268DC18B00DF4BE3 /* Apollo.swift */; };
+		4976E1F3268DC1CA00DF4BE3 /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4976E1F2268DC1CA00DF4BE3 /* Queries.graphql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		4976E1DD268DC13C00DF4BE3 /* GraphQLCountryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphQLCountryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4976E1E1268DC13C00DF4BE3 /* GraphQLCountryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLCountryUITests.swift; sourceTree = "<group>"; };
 		4976E1E3268DC13C00DF4BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4976E1F0268DC18B00DF4BE3 /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
+		4976E1F2268DC1CA00DF4BE3 /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 			children = (
 				4976E1C4268DC13B00DF4BE3 /* GraphQLCountryApp.swift */,
 				4976E1C6268DC13B00DF4BE3 /* ContentView.swift */,
+				4976E1EF268DC16C00DF4BE3 /* GraphQL */,
 				4976E1C8268DC13C00DF4BE3 /* Assets.xcassets */,
 				4976E1CD268DC13C00DF4BE3 /* Info.plist */,
 				4976E1CA268DC13C00DF4BE3 /* Preview Content */,
@@ -128,6 +133,15 @@
 				4976E1E3268DC13C00DF4BE3 /* Info.plist */,
 			);
 			path = GraphQLCountryUITests;
+			sourceTree = "<group>";
+		};
+		4976E1EF268DC16C00DF4BE3 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				4976E1F0268DC18B00DF4BE3 /* Apollo.swift */,
+				4976E1F2268DC1CA00DF4BE3 /* Queries.graphql */,
+			);
+			path = GraphQL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4976E1F3268DC1CA00DF4BE3 /* Queries.graphql in Resources */,
 				4976E1CC268DC13C00DF4BE3 /* Preview Assets.xcassets in Resources */,
 				4976E1C9268DC13C00DF4BE3 /* Assets.xcassets in Resources */,
 			);
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4976E1C7268DC13B00DF4BE3 /* ContentView.swift in Sources */,
+				4976E1F1268DC18B00DF4BE3 /* Apollo.swift in Sources */,
 				4976E1C5268DC13B00DF4BE3 /* GraphQLCountryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
