@@ -2,33 +2,17 @@ PODS:
   - Apollo (0.44.0):
     - Apollo/Core (= 0.44.0)
   - Apollo/Core (0.44.0)
-  - Apollo/SQLite (0.44.0):
-    - Apollo/Core
-    - SQLite.swift (~> 0.12.2)
-  - Apollo/WebSocket (0.44.0):
-    - Apollo/Core
-    - Starscream (~> 4.0.4)
-  - SQLite.swift (0.12.2):
-    - SQLite.swift/standard (= 0.12.2)
-  - SQLite.swift/standard (0.12.2)
-  - Starscream (4.0.4)
 
 DEPENDENCIES:
   - Apollo
-  - Apollo/SQLite
-  - Apollo/WebSocket
 
 SPEC REPOS:
   trunk:
     - Apollo
-    - SQLite.swift
-    - Starscream
 
 SPEC CHECKSUMS:
   Apollo: cc5cfeafb38e9409a8d8904f543627778719835b
-  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
-  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
 
-PODFILE CHECKSUM: 2abea6a55ea0ccfdb5ac447ff8c311377944f33e
+PODFILE CHECKSUM: e3b37e0aa2920ce32bc1e7f3cd4a2e2ca3aebc6c
 
 COCOAPODS: 1.10.1

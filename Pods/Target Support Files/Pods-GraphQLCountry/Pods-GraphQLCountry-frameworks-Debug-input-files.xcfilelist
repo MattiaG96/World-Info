@@ -1,4 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-GraphQLCountry/Pods-GraphQLCountry-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework
-${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework
-${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework

@@ -7,8 +7,6 @@ target 'GraphQLCountry' do
 
   # Pods for GraphQLCountry
   pod "Apollo"
-  pod "Apollo/SQLite"
-  pod "Apollo/WebSocket"
 
   target 'GraphQLCountryTests' do
     inherit! :search_paths

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		4976E1E2268DC13C00DF4BE3 /* GraphQLCountryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976E1E1268DC13C00DF4BE3 /* GraphQLCountryUITests.swift */; };
 		4976E1F1268DC18B00DF4BE3 /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976E1F0268DC18B00DF4BE3 /* Apollo.swift */; };
 		4976E1F3268DC1CA00DF4BE3 /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4976E1F2268DC1CA00DF4BE3 /* Queries.graphql */; };
+		49B81F3D268DC8A900F89E6E /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 49B81F3C268DC8A900F89E6E /* schema.json */; };
+		49B81F40268DCED600F89E6E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B81F3F268DCED600F89E6E /* API.swift */; };
 		4A2E2B8F3DD1615A3FCA59A3 /* Pods_GraphQLCountry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AECF3F3EF9695DCE08AA6E /* Pods_GraphQLCountry.framework */; };
 		65DE82BF188EE2E5C086190A /* Pods_GraphQLCountry_GraphQLCountryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE948C9B6C7B0B13C3830CA /* Pods_GraphQLCountry_GraphQLCountryUITests.framework */; };
 		F53850DAAA9746CE77D1B590 /* Pods_GraphQLCountryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDC022918B49266F6A6E825 /* Pods_GraphQLCountryTests.framework */; };
@@ -56,6 +58,8 @@
 		4976E1E3268DC13C00DF4BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4976E1F0268DC18B00DF4BE3 /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
 		4976E1F2268DC1CA00DF4BE3 /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		49B81F3C268DC8A900F89E6E /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		49B81F3F268DCED600F89E6E /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = GraphQLCountry/API.swift; sourceTree = SOURCE_ROOT; };
 		5CE755E8E7ADE1A2AF239888 /* Pods-GraphQLCountryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLCountryTests.release.xcconfig"; path = "Target Support Files/Pods-GraphQLCountryTests/Pods-GraphQLCountryTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC5CF6F6EA7462C34130B86B /* Pods-GraphQLCountryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLCountryTests.debug.xcconfig"; path = "Target Support Files/Pods-GraphQLCountryTests/Pods-GraphQLCountryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1AECF3F3EF9695DCE08AA6E /* Pods_GraphQLCountry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQLCountry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +120,7 @@
 		4976E1C3268DC13B00DF4BE3 /* GraphQLCountry */ = {
 			isa = PBXGroup;
 			children = (
+				49B81F3C268DC8A900F89E6E /* schema.json */,
 				4976E1C4268DC13B00DF4BE3 /* GraphQLCountryApp.swift */,
 				4976E1C6268DC13B00DF4BE3 /* ContentView.swift */,
 				4976E1EF268DC16C00DF4BE3 /* GraphQL */,
@@ -155,6 +160,7 @@
 		4976E1EF268DC16C00DF4BE3 /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
+				49B81F3F268DCED600F89E6E /* API.swift */,
 				4976E1F0268DC18B00DF4BE3 /* Apollo.swift */,
 				4976E1F2268DC1CA00DF4BE3 /* Queries.graphql */,
 			);
@@ -171,7 +177,6 @@
 				AC5CF6F6EA7462C34130B86B /* Pods-GraphQLCountryTests.debug.xcconfig */,
 				5CE755E8E7ADE1A2AF239888 /* Pods-GraphQLCountryTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -193,6 +198,7 @@
 			buildConfigurationList = 4976E1E6268DC13D00DF4BE3 /* Build configuration list for PBXNativeTarget "GraphQLCountry" */;
 			buildPhases = (
 				D03E459B5AA68C275C87DFF5 /* [CP] Check Pods Manifest.lock */,
+				49B81F3E268DC9EA00F89E6E /* Generate Apollo GraphQL API */,
 				4976E1BD268DC13B00DF4BE3 /* Sources */,
 				4976E1BE268DC13B00DF4BE3 /* Frameworks */,
 				4976E1BF268DC13B00DF4BE3 /* Resources */,
@@ -293,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B81F3D268DC8A900F89E6E /* schema.json in Resources */,
 				4976E1F3268DC1CA00DF4BE3 /* Queries.graphql in Resources */,
 				4976E1CC268DC13C00DF4BE3 /* Preview Assets.xcassets in Resources */,
 				4976E1C9268DC13C00DF4BE3 /* Assets.xcassets in Resources */,
@@ -360,6 +367,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		49B81F3E268DC9EA00F89E6E /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRIPT_PATH=\"${PODS_ROOT}/Apollo/scripts\"\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
 		832617A4B5A58F67CD8EA5E6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,6 +450,7 @@
 			files = (
 				4976E1C7268DC13B00DF4BE3 /* ContentView.swift in Sources */,
 				4976E1F1268DC18B00DF4BE3 /* Apollo.swift in Sources */,
+				49B81F40268DCED600F89E6E /* API.swift in Sources */,
 				4976E1C5268DC13B00DF4BE3 /* GraphQLCountryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
