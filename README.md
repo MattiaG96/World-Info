@@ -1,2 +1,2 @@
-# World-Info
+# World Info
 GraphQL Example 
