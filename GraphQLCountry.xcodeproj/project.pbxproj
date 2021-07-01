@@ -15,6 +15,9 @@
 		4976E1E2268DC13C00DF4BE3 /* GraphQLCountryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976E1E1268DC13C00DF4BE3 /* GraphQLCountryUITests.swift */; };
 		4976E1F1268DC18B00DF4BE3 /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976E1F0268DC18B00DF4BE3 /* Apollo.swift */; };
 		4976E1F3268DC1CA00DF4BE3 /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4976E1F2268DC1CA00DF4BE3 /* Queries.graphql */; };
+		4A2E2B8F3DD1615A3FCA59A3 /* Pods_GraphQLCountry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AECF3F3EF9695DCE08AA6E /* Pods_GraphQLCountry.framework */; };
+		65DE82BF188EE2E5C086190A /* Pods_GraphQLCountry_GraphQLCountryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE948C9B6C7B0B13C3830CA /* Pods_GraphQLCountry_GraphQLCountryUITests.framework */; };
+		F53850DAAA9746CE77D1B590 /* Pods_GraphQLCountryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDC022918B49266F6A6E825 /* Pods_GraphQLCountryTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BE4CA30A15845D9F27ABC09 /* Pods-GraphQLCountry-GraphQLCountryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLCountry-GraphQLCountryUITests.debug.xcconfig"; path = "Target Support Files/Pods-GraphQLCountry-GraphQLCountryUITests/Pods-GraphQLCountry-GraphQLCountryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1713997C25193C94EF55B25E /* Pods-GraphQLCountry-GraphQLCountryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLCountry-GraphQLCountryUITests.release.xcconfig"; path = "Target Support Files/Pods-GraphQLCountry-GraphQLCountryUITests/Pods-GraphQLCountry-GraphQLCountryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2AE948C9B6C7B0B13C3830CA /* Pods_GraphQLCountry_GraphQLCountryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQLCountry_GraphQLCountryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9DF517238463217A5ACCA5 /* Pods-GraphQLCountry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLCountry.release.xcconfig"; path = "Target Support Files/Pods-GraphQLCountry/Pods-GraphQLCountry.release.xcconfig"; sourceTree = "<group>"; };
 		4976E1C1268DC13B00DF4BE3 /* GraphQLCountry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphQLCountry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4976E1C4268DC13B00DF4BE3 /* GraphQLCountryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLCountryApp.swift; sourceTree = "<group>"; };
 		4976E1C6268DC13B00DF4BE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		4976E1E3268DC13C00DF4BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4976E1F0268DC18B00DF4BE3 /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
 		4976E1F2268DC1CA00DF4BE3 /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		5CE755E8E7ADE1A2AF239888 /* Pods-GraphQLCountryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLCountryTests.release.xcconfig"; path = "Target Support Files/Pods-GraphQLCountryTests/Pods-GraphQLCountryTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC5CF6F6EA7462C34130B86B /* Pods-GraphQLCountryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLCountryTests.debug.xcconfig"; path = "Target Support Files/Pods-GraphQLCountryTests/Pods-GraphQLCountryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1AECF3F3EF9695DCE08AA6E /* Pods_GraphQLCountry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQLCountry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D258237FD9224D07A38E99EB /* Pods-GraphQLCountry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLCountry.debug.xcconfig"; path = "Target Support Files/Pods-GraphQLCountry/Pods-GraphQLCountry.debug.xcconfig"; sourceTree = "<group>"; };
+		EBDC022918B49266F6A6E825 /* Pods_GraphQLCountryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQLCountryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2E2B8F3DD1615A3FCA59A3 /* Pods_GraphQLCountry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53850DAAA9746CE77D1B590 /* Pods_GraphQLCountryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65DE82BF188EE2E5C086190A /* Pods_GraphQLCountry_GraphQLCountryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				4976E1D5268DC13C00DF4BE3 /* GraphQLCountryTests */,
 				4976E1E0268DC13C00DF4BE3 /* GraphQLCountryUITests */,
 				4976E1C2268DC13B00DF4BE3 /* Products */,
+				4FB280BAA1BC3A46FDB52E91 /* Pods */,
+				EF9A7BD56543B9E4BA97D373 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +161,30 @@
 			path = GraphQL;
 			sourceTree = "<group>";
 		};
+		4FB280BAA1BC3A46FDB52E91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D258237FD9224D07A38E99EB /* Pods-GraphQLCountry.debug.xcconfig */,
+				2D9DF517238463217A5ACCA5 /* Pods-GraphQLCountry.release.xcconfig */,
+				0BE4CA30A15845D9F27ABC09 /* Pods-GraphQLCountry-GraphQLCountryUITests.debug.xcconfig */,
+				1713997C25193C94EF55B25E /* Pods-GraphQLCountry-GraphQLCountryUITests.release.xcconfig */,
+				AC5CF6F6EA7462C34130B86B /* Pods-GraphQLCountryTests.debug.xcconfig */,
+				5CE755E8E7ADE1A2AF239888 /* Pods-GraphQLCountryTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF9A7BD56543B9E4BA97D373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1AECF3F3EF9695DCE08AA6E /* Pods_GraphQLCountry.framework */,
+				2AE948C9B6C7B0B13C3830CA /* Pods_GraphQLCountry_GraphQLCountryUITests.framework */,
+				EBDC022918B49266F6A6E825 /* Pods_GraphQLCountryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4976E1E6268DC13D00DF4BE3 /* Build configuration list for PBXNativeTarget "GraphQLCountry" */;
 			buildPhases = (
+				D03E459B5AA68C275C87DFF5 /* [CP] Check Pods Manifest.lock */,
 				4976E1BD268DC13B00DF4BE3 /* Sources */,
 				4976E1BE268DC13B00DF4BE3 /* Frameworks */,
 				4976E1BF268DC13B00DF4BE3 /* Resources */,
+				832617A4B5A58F67CD8EA5E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4976E1E9268DC13D00DF4BE3 /* Build configuration list for PBXNativeTarget "GraphQLCountryTests" */;
 			buildPhases = (
+				0D87F8B2EC72A20EAA4EA6DA /* [CP] Check Pods Manifest.lock */,
 				4976E1CE268DC13C00DF4BE3 /* Sources */,
 				4976E1CF268DC13C00DF4BE3 /* Frameworks */,
 				4976E1D0268DC13C00DF4BE3 /* Resources */,
@@ -186,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4976E1EC268DC13D00DF4BE3 /* Build configuration list for PBXNativeTarget "GraphQLCountryUITests" */;
 			buildPhases = (
+				148B5274CEF59DD7D1C235BC /* [CP] Check Pods Manifest.lock */,
 				4976E1D9268DC13C00DF4BE3 /* Sources */,
 				4976E1DA268DC13C00DF4BE3 /* Frameworks */,
 				4976E1DB268DC13C00DF4BE3 /* Resources */,
+				9AFF2EBE86AE6C09960A488E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +314,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D87F8B2EC72A20EAA4EA6DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraphQLCountryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		148B5274CEF59DD7D1C235BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraphQLCountry-GraphQLCountryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		832617A4B5A58F67CD8EA5E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraphQLCountry/Pods-GraphQLCountry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraphQLCountry/Pods-GraphQLCountry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraphQLCountry/Pods-GraphQLCountry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AFF2EBE86AE6C09960A488E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraphQLCountry-GraphQLCountryUITests/Pods-GraphQLCountry-GraphQLCountryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraphQLCountry-GraphQLCountryUITests/Pods-GraphQLCountry-GraphQLCountryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraphQLCountry-GraphQLCountryUITests/Pods-GraphQLCountry-GraphQLCountryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D03E459B5AA68C275C87DFF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraphQLCountry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4976E1BD268DC13B00DF4BE3 /* Sources */ = {
@@ -430,6 +579,7 @@
 		};
 		4976E1E7268DC13D00DF4BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D258237FD9224D07A38E99EB /* Pods-GraphQLCountry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +601,7 @@
 		};
 		4976E1E8268DC13D00DF4BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9DF517238463217A5ACCA5 /* Pods-GraphQLCountry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,6 +623,7 @@
 		};
 		4976E1EA268DC13D00DF4BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5CF6F6EA7462C34130B86B /* Pods-GraphQLCountryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		4976E1EB268DC13D00DF4BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE755E8E7ADE1A2AF239888 /* Pods-GraphQLCountryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +667,7 @@
 		};
 		4976E1ED268DC13D00DF4BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE4CA30A15845D9F27ABC09 /* Pods-GraphQLCountry-GraphQLCountryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +687,7 @@
 		};
 		4976E1EE268DC13D00DF4BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1713997C25193C94EF55B25E /* Pods-GraphQLCountry-GraphQLCountryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
